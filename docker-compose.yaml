@@ -1,0 +1,30 @@
+version: "3.2"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: oauth-service
+    links:
+      - mongo
+    ports:
+      - "3000:3000"
+    environment:
+      - GINPORT=3000
+      - MDB_MGO_URI=mongodb://oauth:AuidwEyf776GG2S@mongo:27017/oauth
+
+  mongo:
+    image: bitnami/mongodb
+    container_name: mongo
+    environment:
+      - MONGODB_USERNAME=oauth
+      - MONGODB_PASSWORD=AuidwEyf776GG2S
+      - MONGODB_DATABASE=oauth
+      - MONGODB_ROOT_PASSWORD=200Lab2019!
+#    volumes:
+#      - ~/dating/stg-data:/bitnami
+    ports:
+      - "27017:27017"
+    expose:
+      - "27017"

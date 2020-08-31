@@ -1,0 +1,6 @@
+.idea
+.DS_STORE
+app
+oauth-service
+.env
+vendor
