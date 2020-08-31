@@ -3,10 +3,11 @@ package usrrepo
 import (
 	"context"
 	"fmt"
-	"github.com/200lab/go-sdk/sdkcm"
-	"github.com/200lab/oauth-service/common"
-	"github.com/200lab/oauth-service/oauth2/model"
-	"github.com/200lab/oauth-service/oauth2/storage"
+
+	"github.com/baozhenglab/oauth-service/common"
+	"github.com/baozhenglab/oauth-service/oauth2/model"
+	"github.com/baozhenglab/oauth-service/oauth2/storage"
+	"github.com/baozhenglab/sdkcm"
 )
 
 func (ur *userRepository) CreateWithGmail(ctx context.Context, email, clientId string) (u *model.User, err error) {

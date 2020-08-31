@@ -5,9 +5,10 @@ import (
 	"log"
 	"net/http"
 	"strings"
+
 	//"github.com/200lab/oauth-service/common"
-	sdkcmn "github.com/200lab/go-sdk/sdkcm"
-	"github.com/200lab/oauth-service/oauth2/model"
+	sdkcmn "github.com/baozhenglab/go-sdk/sdkcm"
+	"github.com/baozhenglab/oauth-service/oauth2/model"
 	"github.com/gin-gonic/gin"
 	"github.com/ory/fosite"
 )

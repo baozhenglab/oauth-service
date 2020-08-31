@@ -3,10 +3,11 @@ package usrrepo
 import (
 	"context"
 	"fmt"
-	"github.com/200lab/go-sdk/sdkcm"
-	"github.com/200lab/oauth-service/common"
-	"github.com/200lab/oauth-service/oauth2/model"
-	"github.com/200lab/oauth-service/oauth2/storage"
+
+	"github.com/baozhenglab/oauth-service/common"
+	"github.com/baozhenglab/oauth-service/oauth2/model"
+	"github.com/baozhenglab/oauth-service/oauth2/storage"
+	"github.com/baozhenglab/sdkcm"
 )
 
 func (ur *userRepository) CreateWithApple(ctx context.Context, appleId, email, clientId string) (u *model.User, err error) {

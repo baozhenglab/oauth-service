@@ -2,15 +2,16 @@ package setup
 
 import (
 	"context"
-	"github.com/200lab/oauth-service/config"
-	"github.com/200lab/oauth-service/oauth2/model"
-	"github.com/200lab/oauth-service/oauth2/storage"
-	"github.com/200lab/oauth-service/secure"
+	"strings"
+
+	"github.com/baozhenglab/oauth-service/config"
+	"github.com/baozhenglab/oauth-service/oauth2/model"
+	"github.com/baozhenglab/oauth-service/oauth2/storage"
+	"github.com/baozhenglab/oauth-service/secure"
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
 	"github.com/ory/fosite"
 	"github.com/pkg/errors"
-	"strings"
 )
 
 // init mongo is a init script implement Initializer

@@ -2,9 +2,10 @@ package oauth2
 
 import (
 	"encoding/json"
-	"github.com/200lab/go-sdk/sdkcm"
 	"net/http"
 	"strings"
+
+	"github.com/baozhenglab/sdkcm"
 
 	"github.com/gin-gonic/gin"
 	"github.com/ory/fosite"

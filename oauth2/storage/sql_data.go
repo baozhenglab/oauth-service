@@ -5,15 +5,16 @@ import (
 	"database/sql/driver"
 	"encoding/json"
 	"fmt"
-	"github.com/200lab/go-sdk/sdkcm"
-	"github.com/200lab/oauth-service/oauth2/model"
-	"github.com/200lab/oauth-service/secure"
-	"github.com/ory/fosite"
-	"github.com/ory/go-convenience/stringsx"
-	"github.com/pkg/errors"
 	"net/url"
 	"strings"
 	"time"
+
+	"github.com/baozhenglab/oauth-service/oauth2/model"
+	"github.com/baozhenglab/oauth-service/secure"
+	"github.com/baozhenglab/sdkcm"
+	"github.com/ory/fosite"
+	"github.com/ory/go-convenience/stringsx"
+	"github.com/pkg/errors"
 )
 
 type ClientSQL struct {

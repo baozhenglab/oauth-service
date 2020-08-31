@@ -3,11 +3,12 @@ package usrrepo
 import (
 	"context"
 	"fmt"
-	"github.com/200lab/go-sdk/sdkcm"
-	"github.com/200lab/oauth-service/common"
-	"github.com/200lab/oauth-service/oauth2/model"
-	"github.com/200lab/oauth-service/oauth2/storage"
-	"github.com/200lab/oauth-service/secure"
+
+	"github.com/baozhenglab/oauth-service/common"
+	"github.com/baozhenglab/oauth-service/oauth2/model"
+	"github.com/baozhenglab/oauth-service/oauth2/storage"
+	"github.com/baozhenglab/oauth-service/secure"
+	"github.com/baozhenglab/sdkcm"
 )
 
 func (ur *userRepository) Create(ctx context.Context, user *model.User) (u *model.User, err error) {

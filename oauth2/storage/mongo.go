@@ -2,8 +2,9 @@ package storage
 
 import (
 	"context"
-	"github.com/200lab/oauth-service/oauth2"
-	"github.com/200lab/oauth-service/secure"
+
+	"github.com/baozhenglab/oauth-service/oauth2"
+	"github.com/baozhenglab/oauth-service/secure"
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
 	"github.com/ory/fosite"

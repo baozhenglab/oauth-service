@@ -3,10 +3,11 @@ package usrrepo
 import (
 	"context"
 	"fmt"
-	"github.com/200lab/go-sdk/sdkcm"
-	"github.com/200lab/oauth-service/common"
-	"github.com/200lab/oauth-service/oauth2/model"
-	"github.com/200lab/oauth-service/secure"
+
+	"github.com/baozhenglab/oauth-service/common"
+	"github.com/baozhenglab/oauth-service/oauth2/model"
+	"github.com/baozhenglab/oauth-service/secure"
+	"github.com/baozhenglab/sdkcm"
 )
 
 func (ur *userRepository) UpdateUser(ctx context.Context, update *model.UserUpdate) (*model.User, error) {

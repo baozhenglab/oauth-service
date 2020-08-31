@@ -2,9 +2,10 @@ package usrrepo
 
 import (
 	"context"
-	"github.com/200lab/go-sdk/sdkcm"
-	"github.com/200lab/oauth-service/common"
-	"github.com/200lab/oauth-service/secure"
+
+	"github.com/baozhenglab/oauth-service/common"
+	"github.com/baozhenglab/oauth-service/secure"
+	"github.com/baozhenglab/sdkcm"
 )
 
 func (ur *userRepository) ChangePassword(ctx context.Context, clientId, uid, oldPass, newPass string) error {

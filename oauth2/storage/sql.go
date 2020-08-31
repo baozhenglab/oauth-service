@@ -3,9 +3,10 @@ package storage
 import (
 	"context"
 	"fmt"
-	"github.com/200lab/go-sdk/sdkcm"
-	"github.com/200lab/oauth-service/oauth2"
-	"github.com/200lab/oauth-service/secure"
+
+	"github.com/baozhenglab/oauth-service/oauth2"
+	"github.com/baozhenglab/oauth-service/secure"
+	"github.com/baozhenglab/sdkcm"
 	"github.com/jinzhu/gorm"
 	"github.com/ory/fosite"
 )

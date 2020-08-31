@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/200lab/go-sdk/sdkcm"
-	"github.com/200lab/oauth-service/common"
+	"github.com/baozhenglab/oauth-service/common"
+	"github.com/baozhenglab/sdkcm"
 )
 
 type UserUpdate struct {

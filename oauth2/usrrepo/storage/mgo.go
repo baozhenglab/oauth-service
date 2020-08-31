@@ -2,9 +2,10 @@ package storage
 
 import (
 	"context"
-	"github.com/200lab/go-sdk/sdkcm"
-	"github.com/200lab/oauth-service/common"
-	oauthStore "github.com/200lab/oauth-service/oauth2/storage"
+
+	"github.com/baozhenglab/oauth-service/common"
+	oauthStore "github.com/baozhenglab/oauth-service/oauth2/storage"
+	"github.com/baozhenglab/sdkcm"
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
 )

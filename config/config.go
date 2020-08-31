@@ -4,7 +4,8 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 	"flag"
-	"github.com/200lab/oauth-service/secure"
+
+	"github.com/baozhenglab/oauth-service/secure"
 	"github.com/ory/fosite/compose"
 )
 

@@ -1,10 +1,10 @@
 package ginhandler
 
 import (
-	"github.com/200lab/oauth-service/config"
-	"github.com/200lab/oauth-service/oauth2"
-	"github.com/200lab/oauth-service/oauth2/usrrepo"
-	userStorage "github.com/200lab/oauth-service/oauth2/usrrepo/storage"
+	"github.com/baozhenglab/oauth-service/config"
+	"github.com/baozhenglab/oauth-service/oauth2"
+	"github.com/baozhenglab/oauth-service/oauth2/usrrepo"
+	userStorage "github.com/baozhenglab/oauth-service/oauth2/usrrepo/storage"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 )

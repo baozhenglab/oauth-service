@@ -1,10 +1,11 @@
 package oauth2
 
 import (
-	"github.com/200lab/oauth-service/config"
-	"github.com/200lab/oauth-service/oauth2/model"
-	"github.com/ory/fosite"
 	"time"
+
+	"github.com/baozhenglab/oauth-service/config"
+	"github.com/baozhenglab/oauth-service/oauth2/model"
+	"github.com/ory/fosite"
 
 	"github.com/ory/fosite/compose"
 )

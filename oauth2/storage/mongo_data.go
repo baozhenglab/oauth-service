@@ -3,8 +3,9 @@ package storage
 import (
 	"context"
 	"encoding/json"
-	"github.com/200lab/oauth-service/oauth2/model"
-	"github.com/200lab/oauth-service/secure"
+
+	"github.com/baozhenglab/oauth-service/oauth2/model"
+	"github.com/baozhenglab/oauth-service/secure"
 	"github.com/globalsign/mgo/bson"
 	"github.com/ory/fosite"
 	"github.com/ory/go-convenience/stringsx"

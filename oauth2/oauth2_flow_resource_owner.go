@@ -6,12 +6,13 @@ package oauth2
 
 import (
 	"context"
-	"github.com/200lab/oauth-service/oauth2/model"
+	"time"
+
+	"github.com/baozhenglab/oauth-service/oauth2/model"
 	"github.com/ory/fosite"
 	"github.com/ory/fosite/compose"
 	foauth2 "github.com/ory/fosite/handler/oauth2"
 	"github.com/pkg/errors"
-	"time"
 )
 
 type ResourceOwnerPasswordCredentialsGrantStorage interface {

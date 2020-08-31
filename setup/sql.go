@@ -3,15 +3,16 @@ package setup
 import (
 	"context"
 	"fmt"
-	"github.com/200lab/go-sdk/sdkcm"
-	"github.com/200lab/oauth-service/config"
-	"github.com/200lab/oauth-service/oauth2/model"
-	"github.com/200lab/oauth-service/oauth2/storage"
-	"github.com/200lab/oauth-service/secure"
+	"strings"
+
+	"github.com/baozhenglab/oauth-service/config"
+	"github.com/baozhenglab/oauth-service/oauth2/model"
+	"github.com/baozhenglab/oauth-service/oauth2/storage"
+	"github.com/baozhenglab/oauth-service/secure"
+	"github.com/baozhenglab/sdkcm"
 	"github.com/jinzhu/gorm"
 	"github.com/ory/fosite"
 	"github.com/pkg/errors"
-	"strings"
 )
 
 type DbConnectionManager interface {

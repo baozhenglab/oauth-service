@@ -2,8 +2,9 @@ package usrrepo
 
 import (
 	"context"
-	"github.com/200lab/oauth-service/oauth2/model"
-	"github.com/200lab/oauth-service/oauth2/storage"
+
+	"github.com/baozhenglab/oauth-service/oauth2/model"
+	"github.com/baozhenglab/oauth-service/oauth2/storage"
 )
 
 type Storage interface {
